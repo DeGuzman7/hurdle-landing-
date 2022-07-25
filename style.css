@@ -61,7 +61,8 @@ body{
 .s-icons{
     float: right;
     margin-right: 2.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
 }
 .s-icons a{
     color: white;
@@ -70,7 +71,7 @@ body{
     border: 2px solid white;
     border-radius: 100px;
     padding: 1rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 .fa-facebook-f{
     padding-left: 1.2rem;
@@ -100,21 +101,22 @@ body{
         background-color: var(--Violet);
     }
     .heading{
-        font-size: 30px;
+        font-size: 26px;
         margin-top: 0;
     }
     .small-text{
-        font-size: 1rem;
+        font-size: 1.1rem;
         margin-top: 1rem; 
     }
     .btn{
         width: 60%;
+        font-size: 1rem;
     }
     .s-icons{
         display: flex;
         justify-content: center;
         float: none;
-        margin-top: 4rem;
+        margin-top: 3rem;
         margin-right: 0;
         margin-bottom: 0;
     }
@@ -126,6 +128,9 @@ body{
     .fa-facebook-f{
         padding-left: 0.8rem;
         padding-right: 0.8rem;
+    }
+    br{
+        display: none;
     }
 
 }
